@@ -138,14 +138,14 @@ int loopincrementn(int n) {
 	int add = 2;
 	for (int i = s; i < n; i=i+add) {
 		count++; // # this line executes
-		cout << count << endl;
+		// cout << count << endl;
 	}
 	return (count);
 }
 
 int main() {
 	int n;
-	cout << "Please enter n: ";
+	cout << "\nPlease enter n: ";
 	cin >> n;
 
 	while (n > 0) {
@@ -159,11 +159,11 @@ int main() {
 		cout << "\ttwonested(" << n << ") = " << twonested(n) << endl;
 		cout << "\tthreenested(" << n << ") = " << threenested(n) << endl;
 		cout << "\tpowern(" << n << ") = " << powern(n) << endl;
-		cout << "\thalving(" << n << ") = " << halving(n) << "\n" << endl;
+		cout << "\thalving(" << n << ") = " << halving(n) << endl;
 		cout << "\tloopincrementn(" << n << ") = " << loopincrementn(n) << endl;
 
-		cout << "Please enter another n: ";
+		cout << "\nPlease enter another n: ";
 		cin >> n;
-	}
+	}\
 	return 0;
 }

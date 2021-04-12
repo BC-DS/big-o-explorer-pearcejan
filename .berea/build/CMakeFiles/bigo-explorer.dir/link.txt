@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/bigo-explorer.dir/home/runner/big-o-explorer-pearcejan/main.cpp.o  -o bigo-explorer -lpthread /usr/lib/x86_64-linux-gnu/libSM.so /usr/lib/x86_64-linux-gnu/libICE.so /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
